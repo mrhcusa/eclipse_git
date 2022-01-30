@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adhoc" duration-ms="274170" started-at="2022-01-30T10:59:17 EST" finished-at="2022-01-30T11:03:51 EST">
+    <groups>
+    </groups>
+    <test name="RegressionOfEdge" duration-ms="274170" started-at="2022-01-30T10:59:17 EST" finished-at="2022-01-30T11:03:51 EST">
+      <class name="Class_11_TestNG_Framework.SignIn_Amazon">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="104063" started-at="2022-01-30T10:59:17 EST" finished-at="2022-01-30T11:01:01 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify()[pri:1, instance:Class_11_TestNG_Framework.SignIn_Amazon@536aaa8d]" name="verify" duration-ms="42252" started-at="2022-01-30T11:01:01 EST" finished-at="2022-01-30T11:01:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon@536aaa8d]" name="afterMethod" is-config="true" duration-ms="6911" started-at="2022-01-30T11:01:43 EST" finished-at="2022-01-30T11:01:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="15923" started-at="2022-01-30T11:01:50 EST" finished-at="2022-01-30T11:02:06 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:2, instance:Class_11_TestNG_Framework.SignIn_Amazon@536aaa8d]" name="f" duration-ms="18540" started-at="2022-01-30T11:02:06 EST" depends-on-methods="Class_11_TestNG_Framework.SignIn_Amazon.verify" finished-at="2022-01-30T11:02:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon@536aaa8d]" name="afterMethod" is-config="true" duration-ms="7481" started-at="2022-01-30T11:02:25 EST" finished-at="2022-01-30T11:02:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Class_11_TestNG_Framework.SignIn_Amazon -->
+      <class name="Class_11_TestNG_Framework.SignIn_Amazon2">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon2@42f93a98]" name="beforeMethod" is-config="true" duration-ms="21927" started-at="2022-01-30T11:02:32 EST" finished-at="2022-01-30T11:02:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify()[pri:1, instance:Class_11_TestNG_Framework.SignIn_Amazon2@42f93a98]" name="verify" duration-ms="23291" started-at="2022-01-30T11:02:54 EST" finished-at="2022-01-30T11:03:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon2@42f93a98]" name="afterMethod" is-config="true" duration-ms="6418" started-at="2022-01-30T11:03:17 EST" finished-at="2022-01-30T11:03:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon2@42f93a98]" name="beforeMethod" is-config="true" duration-ms="9918" started-at="2022-01-30T11:03:24 EST" finished-at="2022-01-30T11:03:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:2, instance:Class_11_TestNG_Framework.SignIn_Amazon2@42f93a98]" name="f" duration-ms="11020" started-at="2022-01-30T11:03:34 EST" depends-on-methods="Class_11_TestNG_Framework.SignIn_Amazon2.verify" finished-at="2022-01-30T11:03:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Class_11_TestNG_Framework.SignIn_Amazon2@42f93a98]" name="afterMethod" is-config="true" duration-ms="6165" started-at="2022-01-30T11:03:45 EST" finished-at="2022-01-30T11:03:51 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Class_11_TestNG_Framework.SignIn_Amazon2 -->
+    </test> <!-- RegressionOfEdge -->
+  </suite> <!-- Adhoc -->
+</testng-results>
