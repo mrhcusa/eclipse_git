@@ -1,7 +1,6 @@
 package Class_11_TestNG_Framework;
 
 import java.io.IOException;
-
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import Common.Utility;
@@ -29,7 +28,7 @@ public class SignIn_Amazon extends Utility { // This file is the runner file of 
 		acc.password_();
 		acc.repass_();
 		acc.cont_();
-		System.out.println("Priority_2 is executing");
+		System.out.println("Priority_2 is executing,File-1");
 	}
 
 	@Test(priority = 1)
@@ -55,7 +54,7 @@ public class SignIn_Amazon extends Utility { // This file is the runner file of 
 																// document.
 		SoftAssert soft = new SoftAssert();
 		soft.assertEquals(msg_act, msg_expected);
-		System.out.println("This is after assertion. Priority_1");
+		System.out.println("This is after assertion. Priority_1,File-1");
 		soft.assertAll();
 	}
 }

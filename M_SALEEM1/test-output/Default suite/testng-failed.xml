@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Class_11_TestNG_Framework.SignIn_Amazon">
+      <class name="Class_11_TestNG_Framework.FindElements">
         <methods>
-          <include name="f"/>
+          <include name="ExcelSheetData"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="verify"/>
         </methods>
-      </class> <!-- Class_11_TestNG_Framework.SignIn_Amazon -->
+      </class> <!-- Class_11_TestNG_Framework.FindElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -21,7 +21,7 @@ public class Utility {
 
 	@Parameters({ "browser", "url" })
 	@BeforeMethod
-	public void beforeMethod(String browser, String url) {
+	public void beforeMethod(String browser, String url) throws InterruptedException {
 		String local = System.getProperty("user.dir");
 		System.out.println(local);
 
@@ -30,14 +30,16 @@ public class Utility {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.navigate().to(url);
-			driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
+			Thread.sleep(5000);
+			//driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
 
 		} else if (browser.equalsIgnoreCase("Edge")) {
 			System.setProperty("webdriver.edge.driver", local + "\\src\\Drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 			driver.manage().window().maximize();
 			driver.navigate().to(url);
-			driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
+			Thread.sleep(5000);
+			//driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
 
 		} else {
 			System.out.println("Check your Browser drivers.");

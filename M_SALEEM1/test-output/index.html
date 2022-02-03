@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Adhoc">
-                    <span>C:\Users\Md.RafiqulHaider\PNT_eclipse-workspace\M_SALEEM1\src\Function1.xml</span>
+                    <span>C:\Users\Md.RafiqulHaider\git\eclipse_git\M_SALEEM1\src\Function1.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Adhoc">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +104,12 @@
                     <div class="method-list-content passed suite-Adhoc">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Adhoc" title="Class_11_TestNG_Framework.SignIn_Amazon2" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Adhoc" title="Class_11_TestNG_Framework.FindElements" hash-for-method="ExcelSheetData">ExcelSheetData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Adhoc" title="Class_11_TestNG_Framework.SignIn_Amazon" hash-for-method="f">f</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Adhoc" title="Class_11_TestNG_Framework.SignIn_Amazon" hash-for-method="verify">verify</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Adhoc" title="Class_11_TestNG_Framework.SignIn_Amazon2" hash-for-method="verify">verify</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Adhoc" title="Class_11_TestNG_Framework.FindElements" hash-for-method="ExcelSheetData">ExcelSheetData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Adhoc -->
@@ -137,43 +127,21 @@
           <div class="suite-Adhoc-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Class_11_TestNG_Framework.SignIn_Amazon</span>
+              <span class="class-name">Class_11_TestNG_Framework.FindElements</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="ExcelSheetData">
+                  </a> <!-- ExcelSheetData -->
+                  <span class="method-name">ExcelSheetData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verify">
-                  </a> <!-- verify -->
-                  <span class="method-name">verify</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Adhoc-class-passed -->
-          <div class="suite-Adhoc-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Class_11_TestNG_Framework.SignIn_Amazon2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify">
-                  </a> <!-- verify -->
-                  <span class="method-name">verify</span>
+                  <a name="ExcelSheetData">
+                  </a> <!-- ExcelSheetData -->
+                  <span class="method-name">ExcelSheetData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,19 +149,28 @@
         </div> <!-- panel Adhoc -->
         <div panel-name="test-xml-Adhoc" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Md.RafiqulHaider\PNT_eclipse-workspace\M_SALEEM1\src\Function1.xml</span>
+            <span class="header-content">C:\Users\Md.RafiqulHaider\git\eclipse_git\M_SALEEM1\src\Function1.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Adhoc&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Class_11_TestNG_Framework.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RegressionOfChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.facebook.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Class_11_TestNG_Framework.FindElements&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegressionOfChrome --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;RegressionOfEdge&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com/&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.facebook.com/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Class_11_TestNG_Framework.SignIn_Amazon&quot;/&gt;
-      &lt;class name=&quot;Class_11_TestNG_Framework.SignIn_Amazon2&quot;/&gt;
+      &lt;class name=&quot;Class_11_TestNG_Framework.FindElements&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- RegressionOfEdge --&gt;
 &lt;/suite&gt; &lt;!-- Adhoc --&gt;
@@ -207,7 +184,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">RegressionOfEdge (2 classes)</span>
+                <span class="test-name">RegressionOfChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegressionOfEdge (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,28 +213,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify')
-data.setCell(0, 2, 'Class_11_TestNG_Framework.SignIn_Amazon')
-data.setCell(0, 3, 42252);
+data.setCell(0, 1, 'ExcelSheetData')
+data.setCell(0, 2, 'Class_11_TestNG_Framework.FindElements')
+data.setCell(0, 3, 5272);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verify')
-data.setCell(1, 2, 'Class_11_TestNG_Framework.SignIn_Amazon2')
-data.setCell(1, 3, 23291);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'f')
-data.setCell(2, 2, 'Class_11_TestNG_Framework.SignIn_Amazon')
-data.setCell(2, 3, 18540);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'f')
-data.setCell(3, 2, 'Class_11_TestNG_Framework.SignIn_Amazon2')
-data.setCell(3, 3, 11020);
+data.setCell(1, 1, 'ExcelSheetData')
+data.setCell(1, 2, 'Class_11_TestNG_Framework.FindElements')
+data.setCell(1, 3, 648);
 window.suiteTableData['Adhoc']= { tableData: data, tableDiv: 'times-div-Adhoc'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Adhoc">
               </div> <!-- times-div-Adhoc -->
             </div> <!-- times-div -->
@@ -280,57 +252,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Class_11_TestNG_Framework.SignIn_Amazon</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Class_11_TestNG_Framework.FindElements</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(Edge, https://www.amazon.com/)</span>
+                <span class="method-name">beforeMethod(Chrome, https://www.facebook.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verify</span>
-                <span class="method-start">104067 ms</span>
+                <span class="method-name">ExcelSheetData</span>
+                <span class="method-start">26796 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">146350 ms</span>
+                <span class="method-start">32606 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(Edge, https://www.amazon.com/)</span>
-                <span class="method-start">153261 ms</span>
+                <span class="method-name">beforeMethod(Edge, https://www.facebook.com/)</span>
+                <span class="method-start">39031 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">169184 ms</span>
+                <span class="method-name">ExcelSheetData</span>
+                <span class="method-start">59312 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">187734 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Class_11_TestNG_Framework.SignIn_Amazon2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">195215 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verify</span>
-                <span class="method-start">217142 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">240464 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">246882 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">256801 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">267849 ms</span>
+                <span class="method-start">62447 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

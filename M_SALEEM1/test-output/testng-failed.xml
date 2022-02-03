@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Adhoc]">
-  <test thread-count="5" name="RegressionOfEdge(failed)">
-    <parameter name="browser" value="Edge"/>
-    <parameter name="url" value="https://www.amazon.com/"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Class_11_TestNG_Framework.SignIn_Amazon">
+      <class name="Class_11_TestNG_Framework.FindElements">
         <methods>
-          <include name="f"/>
+          <include name="ExcelSheetData"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="verify"/>
         </methods>
-      </class> <!-- Class_11_TestNG_Framework.SignIn_Amazon -->
+      </class> <!-- Class_11_TestNG_Framework.FindElements -->
     </classes>
-  </test> <!-- RegressionOfEdge(failed) -->
-</suite> <!-- Failed suite [Adhoc] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
